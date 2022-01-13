@@ -9,8 +9,8 @@
 spring:
   config:
     activate:
-      on-profile: article
-words: a,the
+      on-profile: verb
+words: ran,knew,had,saw,bought  
 #
 #---
 #spring:
