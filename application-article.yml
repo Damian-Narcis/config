@@ -1,4 +1,6 @@
 ---
 spring:
-  profiles: article
+  config:
+    activate:
+      on-profile: article
 words: a,the
