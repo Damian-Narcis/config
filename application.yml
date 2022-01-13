@@ -34,12 +34,12 @@
 #words: boat,book,vote,seat,backpack,partition,groundhog
 ---
 spring:
+  application:
+    name: verb
   config:
     activate:
       on-profile: verb
-  application:
-    name: verb
-  profile: verb
+      
 ---
 eureka:
   client:
