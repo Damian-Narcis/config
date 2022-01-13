@@ -9,8 +9,6 @@ words: I,You,He,She,It
 spring:
   profiles:
     activate: verb
-  application:
-    name: verb
 words: ran,knew,had,saw,bought
 
 ---

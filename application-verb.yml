@@ -1,5 +1,5 @@
+---
 spring:
-  config:
-    activate:
-      on-profile: subject
+  profiles:
+    active: verb
 words: I,You,He,She,It
