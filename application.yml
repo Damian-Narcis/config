@@ -5,7 +5,8 @@ words: I,You,He,She,It
 
 ---
 spring:
-  profiles: verb
+  config:
+    activate-on-profile: verb
 words: ran,knew,had,saw,bought
 
 ---
@@ -15,7 +16,8 @@ words: a,the
 
 ---
 spring:
-  profiles: adjective
+  config:
+  activate-on-profile: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
