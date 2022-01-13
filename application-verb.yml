@@ -2,4 +2,4 @@
 spring:
   profiles:
     active: verb
-words: ran,knew,had,saw,bought
+words: dinAppVerb

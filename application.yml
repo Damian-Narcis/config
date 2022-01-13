@@ -10,7 +10,7 @@ spring:
   config:
     activate:
       on-profile: verb
-words: ran,knew,had,saw,bought  
+words: ran,knew,had,saw,bought
 #
 #---
 #spring:
