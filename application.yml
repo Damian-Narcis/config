@@ -39,6 +39,7 @@ spring:
       on-profile: verb
   application:
     name: verb
+  profile: verb
 ---
 eureka:
   client:
