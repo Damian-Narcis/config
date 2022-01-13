@@ -33,7 +33,6 @@
 #      on-profile: noun
 #words: boat,book,vote,seat,backpack,partition,groundhog
 ---
-spring.config.activate.on-profile
 spring:
   config:
     activate:
