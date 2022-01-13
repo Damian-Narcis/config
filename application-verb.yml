@@ -1,5 +1,5 @@
 ---
 spring:
   profiles:
-    activate: verb
+    active: verb
 words: ran,knew,had,saw,bought
