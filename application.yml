@@ -1,7 +1,6 @@
 ---
 spring:
-  config:
-    profiles: verb
+  profiles: verb
   application:
     name: verb
 ---
