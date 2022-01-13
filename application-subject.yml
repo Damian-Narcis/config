@@ -3,4 +3,6 @@ spring:
   config:
     activate:
       on-profile: subject
+  application:
+    name: subject
 words: I,You,He,She,It
