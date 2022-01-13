@@ -4,5 +4,5 @@ spring:
     activate:
       on-profile: article
   application:
-    name: adjective
+    name: article
 words: a,the
