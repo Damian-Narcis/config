@@ -1,5 +1,6 @@
 ---
 spring:
-  profiles:
-    active: verb
-words: dinAppVerb
+  config:
+    activate:
+      on-profile: verb
+words: ran,knew,had,saw,bought
