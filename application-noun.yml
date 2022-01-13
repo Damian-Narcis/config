@@ -3,4 +3,6 @@ spring:
   config:
     activate:
       on-profile: noun
+  application:
+    name: noun
 words: boat,book,vote,seat,backpack,partition,groundhog  
