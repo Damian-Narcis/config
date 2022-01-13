@@ -37,7 +37,4 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
-  instance:
-    metadataMap:
-      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
