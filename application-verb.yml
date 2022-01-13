@@ -8,5 +8,6 @@ spring:
   profiles: verb
   application:
     name: verb
+word: ran,knew,had,saw,bought
 
 
