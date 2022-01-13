@@ -6,11 +6,11 @@
 #words: I,You,He,She,It
 #
 ---
-spring:
-  config:
-    activate:
-      on-profile: verb
-words: ran,knew,had,saw,bought
+# spring:
+#   config:
+#     activate:
+#       on-profile: verb
+# words: ran,knew,had,saw,bought
 #
 #---
 #spring:
@@ -32,7 +32,12 @@ words: ran,knew,had,saw,bought
 #    activate:
 #      on-profile: noun
 #words: boat,book,vote,seat,backpack,partition,groundhog
+---
 
+spring:
+  profiles: verb
+  application:
+    name: verb
 ---
 eureka:
   client:
