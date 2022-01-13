@@ -1,4 +1,9 @@
 ---
+spring:
+  profiles: verb
+  application:
+    name: verb
+---
 eureka:
   client:
     serviceUrl:
