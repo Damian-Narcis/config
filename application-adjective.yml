@@ -1,4 +1,6 @@
 ---
 spring:
-  profiles: adjective
+  config:
+    activate:
+      on-profile: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
