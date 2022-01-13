@@ -1,5 +1,4 @@
 ---
 spring:
   profiles: verb
-  application:
-    name: verb
+words: ran,knew,had,saw,bought
