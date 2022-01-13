@@ -3,4 +3,6 @@ spring:
   config:
     activate:
       on-profile: article
+  application:
+    name: adjective
 words: a,the
