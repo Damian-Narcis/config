@@ -1,7 +1,12 @@
+#---
+#spring:
+#  profiles:
+#    activate: verb
+#words: ran,knew,had,saw,bought
 ---
 spring:
-  profiles:
-    activate: verb
-words: ran,knew,had,saw,bought
+  profiles: verb
+  application:
+    name: verb
 
 
