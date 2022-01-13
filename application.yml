@@ -6,7 +6,8 @@ words: I,You,He,She,It
 ---
 spring:
   config:
-    profile: verb
+    activate:
+      on-profile: verb
 words: ran,knew,had,saw,bought
 
 ---
