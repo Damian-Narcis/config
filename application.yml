@@ -35,7 +35,7 @@
 # Allow Eureka to recognize two apps of the same type on the same host as separate instances:
 ---
 wordconfig:
-  luckyWord: udasbhifafnak
+  luckyWord: 999999999999999999999999
   preamble: My lucky word is 
 
   
