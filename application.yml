@@ -33,21 +33,25 @@
 #      on-profile: noun
 #words: boat,book,vote,seat,backpack,partition,groundhog
 # Allow Eureka to recognize two apps of the same type on the same host as separate instances:
+---
+wordconfig:
+  luckyWord: udasbhifafnak
+  preamble: My lucky word is 
 
   
 
----
-spring:
-  application:
-    name: verb
-  config:
-    activate:
-      on-profile: verb
+# ---
+# spring:
+#   application:
+#     name: verb
+#   config:
+#     activate:
+#       on-profile: verb
       
----
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/
-  instance:
-    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+# ---
+# eureka:
+#   client:
+#     serviceUrl:
+#       defaultZone: http://localhost:8010/eureka/
+#   instance:
+#     instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
