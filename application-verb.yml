@@ -3,4 +3,6 @@ spring:
   config:
     activate:
       on-profile: verb
+  application:
+    name: verb
 words: ran,knew,had,saw,bought
