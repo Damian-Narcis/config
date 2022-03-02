@@ -6,3 +6,6 @@ spring:
   application:
     name: article
 words: a,the
+server:
+  port: 8101
+
