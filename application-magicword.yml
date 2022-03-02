@@ -6,3 +6,5 @@ spring:
   application:
     name: magicword
 words: alakazam
+server:
+  port: 8107
