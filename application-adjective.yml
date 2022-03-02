@@ -6,5 +6,3 @@ spring:
   application:
     name: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
-server:
-  port: 8100
