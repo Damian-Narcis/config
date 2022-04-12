@@ -5,6 +5,6 @@ spring:
       on-profile: magicword
   application:
     name: magicword
-words: alakazam
+words: alakazam, boombaboom, tadam
 server:
   port: 8100
