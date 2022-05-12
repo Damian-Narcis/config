@@ -59,8 +59,8 @@ eureka:
 logging:
  level:
   root: DEBUG
-# server:
-#  ssl:
+server:
+ ssl:
 #   enabled: true
 #   key-store: 'src/main/resources/bootsecurity.p12' #path-ul
 #   key-store-password: password #parola pt keystore
