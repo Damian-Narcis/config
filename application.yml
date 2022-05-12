@@ -61,7 +61,7 @@ logging:
   root: DEBUG
 server:
  ssl:
-#   enabled: true
+  enabled: true
 #   key-store: 'src/main/resources/bootsecurity.p12' #path-ul
 #   key-store-password: password #parola pt keystore
 #   key-store-type: PKCS12 #tipul de cheie (pkcs12 sau JKS)
