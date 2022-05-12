@@ -68,3 +68,6 @@ server:
   key-alias: bootsecurity #numele ce identifica cheia in keystore
   protocol: TLS
   enabled-protocols: TLSv1.2
+feign:
+ httpclient:
+  disableSslValidation: true
