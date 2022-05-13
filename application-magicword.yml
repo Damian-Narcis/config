@@ -8,14 +8,14 @@ spring:
 words: alakazam, boombaboom, tadam
 server:
   port: 8100
-    ssl:
-      enabled: true
-      key-store: 'C:\Users\user1\Desktop\Udemy projects\Lab6\word server\src\main\resources\bootsecurity.p12' #path-ul
-      key-store-password: password #parola pt keystore
-      key-store-type: PKCS12 #tipul de cheie (pkcs12 sau JKS)
-      key-alias: bootsecurity #numele ce identifica cheia in keystore
-      protocol: TLS
-      enabled-protocols: TLSv1.2
+  ssl:
+    enabled: true
+    key-store: 'C:\Users\user1\Desktop\Udemy projects\Lab6\word server\src\main\resources\bootsecurity.p12' #path-ul
+    key-store-password: password #parola pt keystore
+    key-store-type: PKCS12 #tipul de cheie (pkcs12 sau JKS)
+    key-alias: bootsecurity #numele ce identifica cheia in keystore
+    protocol: TLS
+    enabled-protocols: TLSv1.2
 feign:
  httpclient:
   disableSslValidation: true
