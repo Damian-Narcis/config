@@ -19,3 +19,6 @@ server:
 feign:
  httpclient:
   disableSslValidation: true
+logging:
+  level:
+    root: DEBUG
