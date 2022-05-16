@@ -4,4 +4,4 @@ spring:
     activate:
       on-profile: sentence
   application:
-    name: adjective
+    name: sentence
