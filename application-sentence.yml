@@ -5,7 +5,6 @@ spring:
       on-profile: sentence
   application:
     name: sentence
-    
 eureka:
   instance: 
     nonSecurePortEnabled: false
